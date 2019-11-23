@@ -1,0 +1,39 @@
+.article-preview {
+  width: calc(100% - 40px);
+  padding: 20px;
+  border-bottom: 1px solid #808080;
+}
+
+.article-preview-content {
+  display: flex;
+  width: 100%;
+}
+
+.img-wrap {
+  width: calc(30% - 30px);
+  margin-right: 30px;
+}
+
+.img-wrap img {
+  width: 100%;
+}
+
+.preview-text {
+  width: 70%;
+}
+
+.article-description {
+  margin-bottom: 30px;
+}
+
+.full-article-link {
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: #37afff;
+  border-radius: 5px;
+}
+
+.full-article-link:hover {
+  background-color: #247cff;
+}
