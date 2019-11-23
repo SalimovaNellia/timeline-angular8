@@ -11,5 +11,15 @@ export class NewsApiService {
 
   public getNews() {
     return this.httpClient.get(`https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${this.API_KEY}`);
+    // The HttpClient get() method is designed to send HTTP GET requests. The syntax is as follows:
+    //
+    //   get(url: string, options: {
+    //   headers?: HttpHeaders;
+    //   observe: 'response';
+    //   params?: HttpParams;
+    //   reportProgress?: boolean;
+    //   responseType?: 'json';
+    //   withCredentials?: boolean;
+    // }): Observable<HttpResponse<Object>>;
   }
 }
